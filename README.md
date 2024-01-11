@@ -45,3 +45,20 @@ These models differ in some ways, so the process isn't always identical, but som
 ## summary 
 
 As I continue learning, it looks like the next steps involve Pipelines and Random Forests, which streamline the operations put into place here. Nonetheless, manually performing these procedures helped reinforce how they help to improve data predictions based on a stakeholder's specific needs.
+
+## Repository Structure:
+├── notebook checkpoints  
+
+├── dataset_files
+
+──── bank_marketing_train.csv
+
+──── bank_marketing_test.csv 
+
+├── README.md
+
+├── presentation.pdf
+
+├── project_notebook.ipynb
+
+├── project_notebook.pdf

@@ -57,7 +57,13 @@ Below, I list each statistically significant coefficient's value, with the verti
 
 Finally, if things change someday and call center costs really aren't too bad or the stakeholder isn't concerned with them nearly as much as term deposits, there's a Scikit-Learn Logit model that results in 9.6% true positives and 2.1% false negatives (predicting positives 82% correctly) while showing 73.7% true negatives and 14.6% false positives (predicting negatives 84% correctly). In other words, it winds up with a *lot* more wasted calls, but the most new term deposits overall.
 
-## summary 
+## conclusions 
+
+Decision tree models tend to make better predictions on large datasets with unrelated features and this data is no exception; an optimized decision tree model worked better than a StatsModels & Scikit-Learn Logit model did. However, the StatsModels Logit relayed the following about contacting clients in future marketing campaigns for this stakeholder:
+
+- the odds of a successful outcome for a client **decrease by 0.007%** for repeated contact attempts 
+- a previous depositor has **869% higher odds** of making another deposit compared to a client who has not done so before
+- higher checking account balances **greatly** increase the odds of a successful term deposit outcome (this was a normalized feature, so exact odds are less interpretable here)
 
 As I continue learning, it looks like the next steps involve Pipelines and Random Forests, which streamline the operations put into place here. Nonetheless, manually performing these procedures helped reinforce how they help to improve data predictions based on a stakeholder's specific needs.
 

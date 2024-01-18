@@ -78,6 +78,8 @@ As I continue learning, it looks like the next steps involve Pipelines and Rando
 
 ├── README.md
 
+├── SM Logit coefficients.png
+
 ├── presentation.pdf
 
 ├── project_notebook.ipynb
